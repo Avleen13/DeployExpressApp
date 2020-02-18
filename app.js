@@ -46,8 +46,8 @@ app.get("/product",(req,res)=>{
 
 
 
-const PORT=process.env.;
-app.listen(3000,()=>{
+const PORT=process.env.PORT;
+app.listen(PORT,()=>{
 
     console.log(`Web server is up and running`);
 })
